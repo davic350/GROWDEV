@@ -1,0 +1,23 @@
+from classe import Tamagochi
+from time import sleep
+
+bichinho = Tamagochi('Sem Nome', 1, 0, False)
+bichinho.alterar_nome()
+print('--'*30)
+sleep(0.5)
+bichinho.alterar_fome()
+print('--'*30)
+sleep(0.5)
+bichinho.alterar_saude()
+print('--'*30)
+sleep(0.5)
+bichinho.alterar_idade()
+print('--'*30)
+sleep(0.5)
+bichinho.exibir_nome()
+sleep(1)
+bichinho.exibir_fome()
+sleep(1)
+bichinho.exibir_saude()
+sleep(1)
+bichinho.exibir_idade()
